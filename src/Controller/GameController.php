@@ -8,8 +8,8 @@ use Doctrine\ORM\EntityManagerInterface;
 
 class GameController extends AbstractController{
 
-    #[Route('/game')]
-    public function gameMain(){
-        return $this->render('gameInit.html.twig');
+    #[Route('/flappyBird')]
+    public function gameFlappyBird(){
+        return $this->render('flappyBird.html.twig');
     }
 }
