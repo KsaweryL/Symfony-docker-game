@@ -35,7 +35,7 @@ setInterval(function(){
     // console.log("cTop: " + cTop.toString());
 
     //hit detection
-    if((characterTop>480)||((blockLeft<20)&&(blockLeft>-30)&&((cTop<holeTop)||(cTop>holeTop+130)))){
+    if((characterTop>480)||((blockLeft<32)&&(blockLeft>-14)&&((cTop<holeTop - 2)||(cTop>holeTop+126)))){
         alert("Game over. Score: "+(counter-1));
         character.style.top = 100 + "px";
         counter=0;

@@ -8,13 +8,16 @@
     border: 1px solid black;
     margin: auto;
     overflow: hidden;
+    /*background-color: white;*/
+    background: url('images/bg.png');
 }
 #block{
     width: 50px;
     height: 500px;
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
+    background: url('images/elements.png') -192px 0;
     position: relative;
-    animation: block 5s infinite linear;
+    animation: block 4s infinite linear;
 }
 @keyframes block{
     0%{left:700px}
@@ -23,18 +26,21 @@
 #hole{
     width: 50px;
     height: 150px;
-    background-color: white;
+    /*background-color: white;*/
+    background: url('images/bg.png');
     position: relative;
     left: 400px;
     top: -500px;
-    animation: block 5s infinite linear;
+    animation: block 4s infinite linear;
 }
 
 #character{
-    width: 20px;
-    height: 20px;
-    background-color: red;
+    width: 34px;
+    height: 26px;
+    /*background-image: url("images/png-transparent-red-flappy-bird-flappy-bird-blue-t-shirt-bird-game-animals-text-thumbnail.png");*/
+    background: url('images/b0.png');
+    /*backgorund-size: cover;*/
     position: absolute;
     top: 100px;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
 }

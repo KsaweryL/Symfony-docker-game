@@ -12,4 +12,9 @@ class GameController extends AbstractController{
     public function gameFlappyBird(){
         return $this->render('flappyBird.html.twig');
     }
+
+    #[Route('/mario')]
+    public function gameMario(){
+        return $this->render('mario.html.twig');
+    }
 }
