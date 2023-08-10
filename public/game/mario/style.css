@@ -8,11 +8,19 @@
     border: 1px solid black;
     margin: auto;
     overflow: hidden;
+    background: white;
 }
 
-#ground{
-    width: 1000px;
-    height: 100px;
-    background-color: greenyellow;
+#background{
+    width: 500px;
+    height: 600px;
+    background: url('images/pixel-art-game-background-grass-sky-clouds_210544-60.png');
     position: relative;
+    /*animation: background 0.01ms infinite linear;*/
+    background-repeat: repeat;
+}
+
+@keyframes background{
+    0%{left:1000px}
+    100%{left:-1000px}
 }
